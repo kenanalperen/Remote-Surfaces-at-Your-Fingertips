@@ -48,6 +48,18 @@ These are integrated into a single unit using laser-cut acrylic components. Volt
 
 ---
 
+## Hardware Used
+
+| Item | Price | Comment | Link |
+|---|---|---|---|
+| 3M 15" Touch Screen | £118.12 | Capacitive touchscreen needed for sending the alternating voltage of the interface | [eBay listing](https://www.ebay.co.uk/itm/114157921330?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=6H5SduX6T_i&sssrc=2047675&ssuid=&widget_ver=artemis&media=COPY) |
+| 15" IR Touch Screen Frame | £112.88 | Infrared touch screen frame needed for tracking finger position on the screen | [Amazon listing](https://amzn.eu/d/eEFPHu9) |
+| EVM for Piezo Haptic Driver (DRV2667EVM-CT) | £122.50 | Used for generating and amplifying voltage for haptic feedback | [TI product page](https://www.ti.com/tool/DRV2667EVM-CT?login-check=true) |
+
+> ⚠️ The system drives voltages up to 200 Vpp. See the paper for the full safety setup (isolator enclosure, current-limiting resistors, shrouded connectors, antistatic wristband) before attempting to reproduce this hardware.
+
+---
+
 ## Figures
 
 | | | |
